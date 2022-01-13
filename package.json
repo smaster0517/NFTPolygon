@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "scripts": {
+    "generate": "npx hardhat node",
+    "dev": "npx hardhat run scripts/deploy.js --network localhost && next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.3.2",
+    "axios": "^0.24.0",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.1",
+    "hardhat": "^2.6.7",
+    "ipfs-http-client": "50.1.2",
+    "next": "latest",
+    "npm": "^8.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "web3modal": "^1.9.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
+  }
+}
