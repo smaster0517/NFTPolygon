@@ -1,8 +1,6 @@
-# NFTeehee!
+# NFT Marketplace on Polygon!
 
-![](https://socialify.git.ci/NayamAmarshe/NFTeehee/image?description=1&descriptionEditable=An%20NFT%20Marketplace%20built%20with%20NextJS%20on%20the%20Polygon%20MATIC%20Blockchain%20with%20its%20own%20De-Fi%20tokens.&language=1&name=1&owner=1&theme=Light)
-
-# Intro 💻
+# Intro 
 
 An NFT Marketplace built with NextJS on the Polygon MATIC Blockchain with its own De-Fi tokens, allowing users to quickly sell and buy their favorite items with Ethereum and Metamask.
 
