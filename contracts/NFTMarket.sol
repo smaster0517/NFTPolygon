@@ -6,9 +6,9 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 
 contract NFTMarket is ReentrancyGuard {
     using Counters for Counters.Counter;
-    Counters.Counter private _itemIds;
     Counters.Counter private _itemsSold;
-
+    Counters.Counter private _itemIds;
+    
     address payable owner;
     uint256 listingPrice = 0.025 ether;
 
@@ -145,8 +145,8 @@ contract NFTMarket is ReentrancyGuard {
     /* Returns only items a user has created */
     function fetchItemsCreated() public view returns (MarketItem[] memory) {
         uint256 totalItemCount = _itemIds.current();
-        uint256 itemCount = 0;
         uint256 currentIndex = 0;
+        uint256 itemCount = 0;
 
         for (uint256 i = 0; i < totalItemCount; i++) {
             if (idToMarketItem[i + 1].seller == msg.sender) {
